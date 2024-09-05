@@ -23,7 +23,7 @@ module.exports = () => {
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: 'sw.js',
+        swDest: 'src-sw.js',
       }),
       new WebpackPwaManifest({
         fingerprints: false,
@@ -43,20 +43,6 @@ module.exports = () => {
             destination: path.join('assets', 'icons'),
           },
         ],
-        // screenshots: [
-        //   {
-        //     src: path.resolve('src/images/1920x1880.png'),
-        //     sizes: '1920x1880',
-        //     type: 'image/png',
-        //     form_factor: 'wide',
-        //   },
-        //   {
-        //     src: path.resolve('src/images/750x1334.png'),
-        //     sizes: '750x1334',
-        //     type: 'image/png',
-        //     form_factor: 'narrow',
-        //   },
-        // ],
       }),
       new CopyWebpackPlugin({
         patterns: [
