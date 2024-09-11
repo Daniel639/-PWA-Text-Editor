@@ -76,6 +76,11 @@ The following image shows the application's IndexedDB storage:
 
 ![IndexedDB Storage](./client/dist/assets/images/IndexedDB%20storage-.gif)
 
+### Deployed Website
+
+https://progressive-web-applications-text-editor-rtts.onrender.com
+
+
 ## License
 
 This project is licensed under the MIT License.
